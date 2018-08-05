@@ -1,0 +1,30 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #2E92DF;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.page1 {
+  text-align: center;
+}
+.page1 > h1 {
+  font-size: 80px;
+}
+.page1 > h2 {
+  font-size: 60px;
+}
+.animatedLogo {
+  animation-name: slideIn;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes slideIn {
+  from{
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
